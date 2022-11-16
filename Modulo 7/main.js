@@ -38,10 +38,10 @@ nomeBeneficiario.addEventListener('keyup', function(e) {
     formEvalido = validaNome(nomeBeneficiario.value);
 
     if (!formEvalido) {
-        nomeBeneficiario.style.border = '1px solid red';
+        nomeBeneficiario.classList.add('error');
         document.querySelector('error-message').style.display = 'block';
     } else {
-        nomeBeneficiario.style = '';
+        nomeBeneficiario.classList.remove('error-message');
         document.querySelector('error-message').style.display = 'none';
     }
 });
