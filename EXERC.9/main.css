@@ -1,0 +1,30 @@
+* {
+    background-color: bisque;
+    color: black;
+    padding: 6px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+button {
+    background-color: brown;
+    cursor: pointer;
+    
+    
+}
+
+#nome {
+    background-color: aqua;
+    color: white;
+}
+
+ul,li {
+    text-align: center;
+    padding: 6px;
+    align-items: center;
+    display: none;
+    text-decoration: line-through;
+    
+}
