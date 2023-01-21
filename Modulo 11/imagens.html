@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-image: url(https://cdn.pixabay.com/photo/2022/11/27/11/23/building-7619503_960_720.jpg);
+            height: 500px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-color: red;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 4000)" srcset="https://cdn.pixabay.com/photo/2022/11/29/08/54/race-car-7624025_960_720.jpg"/>
+        <source media="(min-width: 1280px)" srcset="https://cdn.pixabay.com/photo/2022/12/12/12/58/dog-7651002_960_720.jpg">
+        <img src="https://cdn.pixabay.com/photo/2022/11/05/20/18/zebra-7572734_960_720.jpg" alt="">
+    </picture>
+    <div></div>
+</body>
+</html>
